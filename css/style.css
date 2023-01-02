@@ -263,7 +263,7 @@ header.sticky{
 	display: inline-block;
 	padding: 8px 18px;
 	background: #2ecc71;
-	color: var(--second-color);
+	color: white;
 	font-size: 14px;
 	font-weight: 500;
 	border-radius: 8px;
@@ -272,7 +272,7 @@ header.sticky{
 .read:hover{
 	letter-spacing: 1px;
 	background: white;
-	color: black;
+	color: var(--bg-color);
 }
 .box:hover{
 	transform: translateY(-8px);
