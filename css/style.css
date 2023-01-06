@@ -183,20 +183,15 @@ header.sticky{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
-	gap: 1.5rem;
+	gap: 1.0rem;
 }
 .about-img img{
-	max-width: 530px;
+	max-width: 430px;
 	height: auto;
 	width: 100%;
 	border-radius: 8px;
-	filter: blur(10px);
-	-webkit-filter: blur(10px);
 }
-.about-img img:hover{
-	filter: blur(0px);
-	-webkit-filter: blur(0px);
-}
+
 .about-text h2{
 	font-size: var(--h2-font);
 	line-height: 1;
@@ -216,7 +211,7 @@ header.sticky{
 }
 
 .services{
-	background: var(--second-bg-color);
+	background-color: #022D33;
 }
 .main-text{
 	text-align: center;
@@ -238,7 +233,7 @@ header.sticky{
 	margin-top: 5rem;
 }
 .box{
-	background: var(--bg-color);
+	background-color: #0B5E60;
 	padding: 35px 45px;
 	border-radius: 8px;
 	transition: all .45s ease;
