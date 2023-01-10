@@ -257,7 +257,7 @@ header.sticky{
 .read{
 	display: inline-block;
 	padding: 8px 18px;
-	background: #2ecc71;
+	background: #022D33;
 	color: white;
 	font-size: 14px;
 	font-weight: 500;
@@ -296,7 +296,7 @@ header.sticky{
 .layer{
 	width: 100%;
 	height: 0;
-	background: linear-gradient(rgba(0,0,0,0.1), #2ecc71);
+	background: linear-gradient(rgba(0,0,0,0.1), #0B5E60);
 	position: absolute;
 	border-radius: 8px;
 	left: 0;
@@ -321,7 +321,7 @@ header.sticky{
 	line-height: 1.8;
 }
 .layer i{
-	color: var(--main-color);
+	color: #0B5E60;
 	margin-top: 20px;
 	font-size: 20px;
 	background: var(--text-color);
